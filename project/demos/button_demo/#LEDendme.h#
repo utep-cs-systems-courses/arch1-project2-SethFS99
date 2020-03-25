@@ -1,0 +1,6 @@
+#ifndef assembly_included
+#define assembly_included
+#include
+char turn_red();
+char turn_green();
+#endif
