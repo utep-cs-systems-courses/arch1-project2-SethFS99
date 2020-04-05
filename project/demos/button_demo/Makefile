@@ -24,4 +24,4 @@ buzzer.c:buzzer.h
 
 wdInterruptHandler.o: stateMachines.h
 
-stateMachines.o: led.h stateMachines.h
+stateMachines.o: stateMachines.h

@@ -28,10 +28,12 @@ wdInterrupthandler.c
 This is the 'clock' in my msp430 that will increment substates in real time
 based off of a counter and the state that the main function is in.
 
-statemachines.c
+statemachines.s
 This function is used to create the dimming effect by having a state machine
 that is intended to be gone through extremely fast in order to be preceived as
 a 'dim' light, it goes in order of off off off on in oder to be dimmed.
+The implementation of this code is 'inefficient' but suffices as there is so
+few states for the program to actually run through it works well here.
 
 buttons.c
 This is the function that intialized our buttons on the msp430 and allows for
